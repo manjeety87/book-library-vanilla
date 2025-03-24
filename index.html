@@ -3,17 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Book List</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="container">
-      <div class="book-card">
-        <img class="book-cover" />
-        <h2>Book Title</h2>
-        <p>Author Name</p>
+      <h1>A List of Books</h1>
+
+      <!-- View Toggle Buttons -->
+      <div class="choose">
+        <button id="listViewBtn"><i class="fa fa-th-list"></i></button>
+        <button id="gridViewBtn"><i class="fa fa-th-large"></i></button>
+      </div>
+
+      <!-- Books Container -->
+      <div id="book-container">
+        <!-- <div class="book">
+          <div class="cover"></div>
+          <div class="description">
+            <p class="title"><br /><span class="author"></span></p>
+          </div>
+        </div> -->
+
+        <!-- <div class="book">
+          <div class="cover">
+            <img
+              src="https://alysbcohen.files.wordpress.com/2015/01/little-princess-book-cover.jpg"
+            />
+          </div>
+          <div class="description">
+            <p class="title">
+              A Little Princess <br /><span class="author"
+                >Frances Hodgson Burnett</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="cover">
+            <img
+              src="http://www.publishersweekly.com/images/data/ARTICLE_PHOTO/photo/000/028/28129-1.JPG"
+            />
+          </div>
+          <div class="description">
+            <p class="title">
+              Roughing It <br /><span class="author">Mark Twain</span>
+            </p>
+          </div>
+        </div> -->
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
