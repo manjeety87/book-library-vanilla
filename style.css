@@ -42,7 +42,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease-in-out; */
 }
 
 /* Default Grid View */
@@ -56,7 +56,7 @@ button:hover {
   background: #fff;
   border-radius: 10px;
   text-align: center;
-  transition: all 0.5s ease;
+  /* transition: all 0s ease; */
 }
 
 .book:hover {
@@ -94,7 +94,7 @@ button:hover {
 /* List View */
 .list-view {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 books per row */
+  grid-template-columns: repeat(auto, 1fr);
   gap: 10px;
   /* padding: 10px; */
 }
